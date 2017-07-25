@@ -1,0 +1,36 @@
+.header{
+	.navbar-default{
+		background-color: $red;
+	    border-color: none;
+	    border: none;
+	    border-radius:0;
+	    height: 80px;
+	    margin-bottom: 0;
+	}
+	&__logo{
+		.navbar-brand{
+			padding: 6px 15px;
+		}
+		&--img{
+			background-color: #FFF;
+			width:100%;
+			border-radius:50%;			
+			width: 70px;
+		}
+	}	
+	.header__naveg{
+		margin-top: 10px;
+		margin-right: 100px;
+		.header__naveg__item--enlaces{
+			color: #FFF;
+			margin-left: 100px;			
+		}
+		.header__naveg__item--profile{
+			background-color: $blue;
+			margin: 10px;
+			padding: 5px 20px;
+			border-radius: 15px;
+		}	
+	}
+}
+
